@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/img_reaction"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you like the app?"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:id="@+id/tv_title">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let us know your experience"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/btn_1star"
+                android:background="@color/white"></ImageButton>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/btn_2star"
+                android:background="@color/white"></ImageButton>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/btn_3star"
+                android:background="@color/white"></ImageButton>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/btn_4star"
+                android:background="@color/white"></ImageButton>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_launcher"
+                android:id="@+id/btn_5star"
+                android:background="@color/white"></ImageButton>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:id="@+id/btn_rate"
+            android:backgroundTint="#7879F1"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:id="@+id/btn_exit"
+            style="@style/Widget.AppCompat.Button.Borderless"></Button>
+
+    </LinearLayout>
+
+</layout>

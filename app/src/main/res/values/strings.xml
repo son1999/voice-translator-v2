@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Camera Translator</string>
+    <string name="default_notify_title">Message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="langToTransTitile">Choose Language</string>
+    <string name="langToTransBtnBack">Cancel</string>
+    <string name="saved_successfully">Saved Successfully!</string>
+</resources>
